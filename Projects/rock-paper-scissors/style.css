@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(145deg, #141e30, #243b55);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #ffffff22;
+  border: 2px solid #00ffc8;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #00ffc8;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.result {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 20px;
+  min-height: 50px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.reset-button {
+  margin-top: 25px;
+  background-color: #ff0055;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #ff3377;
+}
