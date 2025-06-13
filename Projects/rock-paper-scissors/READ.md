@@ -12,7 +12,7 @@ A fun and interactive Rock Paper Scissors game built using **HTML**, **CSS**, an
 
 ## 📷 Preview
 
-![Game Screenshot](Pasted image.png) <!-- Optional: Add a screenshot image if available -->
+![Game Screenshot](image.png) <!-- Optional: Add a screenshot image if available -->
 
 ## 💻 Technologies Used
 
